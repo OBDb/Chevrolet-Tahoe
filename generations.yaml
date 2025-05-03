@@ -1,0 +1,25 @@
+generations:
+  - name: "First Generation (GMT400)"
+    start_year: 1995
+    end_year: 1999
+    description: "The original Chevrolet Tahoe replaced the full-size Blazer nameplate, available as a two-door or four-door full-size SUV. Built on GM's GMT400 truck platform shared with the Silverado, it featured body-on-frame construction with V8 power (5.7L standard) and four-wheel drive capability. The interior offered two or three rows of seating with relatively basic amenities by modern standards. This generation established the Tahoe as a more family-friendly alternative to the larger Suburban while maintaining significant towing and off-road capability."
+
+  - name: "Second Generation (GMT800)"
+    start_year: 2000
+    end_year: 2006
+    description: "The redesigned Tahoe featured more rounded styling, improved structural rigidity, and enhanced powertrains. The two-door variant was discontinued, leaving only the more popular four-door model. Engine options included 4.8L and 5.3L V8s, with later models receiving cylinder deactivation technology for improved fuel economy. The interior saw significant improvements in design, comfort, and technology. Safety features expanded to include standard four-wheel disc brakes and available side-impact airbags. Special models included the Z71 off-road package and the more luxurious LTZ trim level. This generation solidified the Tahoe's position as a popular choice for families requiring towing capability and three-row seating."
+
+  - name: "Third Generation (GMT900)"
+    start_year: 2007
+    end_year: 2014
+    description: "The third-generation Tahoe featured more aerodynamic styling, an improved structure with higher torsional rigidity, and updated powertrains focused on balancing power with efficiency. The primary engine was a 5.3L V8 with cylinder deactivation technology, paired with a six-speed automatic transmission in later models. A short-lived Hybrid variant featured a two-mode hybrid system paired with a 6.0L V8, achieving improved city fuel economy. The interior offered significantly enhanced materials, design, and technology features. Safety advanced with standard stability control, side curtain airbags, and available features like blind spot monitoring. This generation maintained the Tahoe's core attributes of rugged capability and family-friendly versatility while improving refinement and efficiency."
+
+  - name: "Fourth Generation (K2XX)"
+    start_year: 2015
+    end_year: 2020
+    description: "The fourth-generation Tahoe featured more truck-like styling with squared-off lines and a prominent front fascia. Built on GM's K2XX platform, it maintained body-on-frame construction but added significant technology improvements, including magnetic ride control on higher trims. Powered by a 5.3L V8 as standard with an optional 6.2L V8 on premium models, both featuring direct injection and cylinder deactivation for improved efficiency. The interior offered enhanced materials, design, and a comprehensive infotainment system with available rear-seat entertainment. A significant evolution was the adoption of a fold-flat third row, enabled by a new independent rear suspension on some variants, greatly improving cargo flexibility. This generation enhanced the Tahoe's premium positioning while maintaining its traditional capability."
+
+  - name: "Fifth Generation (T1XX)"
+    start_year: 2021
+    end_year: null
+    description: "The current Tahoe represents the most significant redesign in the model's history, adopting an independent rear suspension across all models that dramatically improves interior space and ride quality. Exterior dimensions increased, resulting in substantially more third-row legroom and cargo capacity. Powertrain options expanded to include a 5.3L V8, 6.2L V8, and for the first time, a 3.0L Duramax diesel inline-six, all paired with a 10-speed automatic transmission. The interior features a complete redesign with available features including a 10.2-inch touchscreen, digital instrument cluster, and up to nine camera views for trailering and off-road use. New variants include the off-road focused Z71 with standard four-wheel drive and skid plates, and the street-performance RST. Available technology includes adaptive air suspension, magnetic ride control, and a power-sliding center console. The fifth-generation Tahoe maintains its body-on-frame construction and significant capability while offering unprecedented levels of comfort, refinement, and technology."
