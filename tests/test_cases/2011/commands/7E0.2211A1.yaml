@@ -1,0 +1,11 @@
+command_id: 7E0.2211A1
+test_cases:
+- response: 7E8056211A1000E
+  expected_values:
+    CHEVROLET_RUNTM: 14
+- response: 7E8056211A100ED
+  expected_values:
+    CHEVROLET_RUNTM: 237
+- response: 7E8056211A11E08
+  expected_values:
+    CHEVROLET_RUNTM: 7688
