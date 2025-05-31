@@ -51,6 +51,9 @@ supported_commands_by_ecu:
   - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 019E:EXH_RATE
   - 01A6:ODO
+  - DB33.012F:FLI
+  - DB33.0131:CLR_DIST
+  - DB33.01A6:ODO
 unsupported_commands_by_ecu:
   7E0:
   - 7E0.7E8.22000D:CHEVROLET_VSS
