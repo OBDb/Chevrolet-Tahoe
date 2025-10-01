@@ -1,0 +1,10 @@
+command_id: DA11.22002F|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_AUX_V: 20.8
+    CHEVROLET_FLI: 81.56863
+  response: 142AF1110462002FD0
+- expected_values:
+    CHEVROLET_AUX_V: 22.7
+    CHEVROLET_FLI: 89.01961
+  response: 142AF1110462002FE3
