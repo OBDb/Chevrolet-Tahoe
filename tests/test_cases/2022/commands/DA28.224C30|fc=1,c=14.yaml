@@ -1,0 +1,26 @@
+command_id: DA28.224C30|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_LNG_G: 0
+  response: 142AF12805624C300000
+- expected_values:
+    CHEVROLET_LNG_G: 0.00637
+  response: 142AF12805624C300004
+- expected_values:
+    CHEVROLET_LNG_G: 0.01274
+  response: 142AF12805624C300008
+- expected_values:
+    CHEVROLET_LNG_G: 0.05734
+  response: 142AF12805624C300024
+- expected_values:
+    CHEVROLET_LNG_G: 0.09557
+  response: 142AF12805624C30003C
+- expected_values:
+    CHEVROLET_LNG_G: 0.17839
+  response: 142AF12805624C300070
+- expected_values:
+    CHEVROLET_LNG_G: -0.18476
+  response: 142AF12805624C30FF8C
+- expected_values:
+    CHEVROLET_LNG_G: -0.01274
+  response: 142AF12805624C30FFF8
