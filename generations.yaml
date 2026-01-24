@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_Tahoe"
+
 generations:
   - name: "First Generation (GMT400)"
     start_year: 1995
