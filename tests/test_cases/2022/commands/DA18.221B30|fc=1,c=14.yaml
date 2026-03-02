@@ -1,14 +1,21 @@
 command_id: DA18.221B30|fc=1,c=14
 test_cases:
 - expected_values:
+    CHEVROLET_CURRENT_GEAR: -1
     CHEVROLET_GEAR: PARK
   response: 142AF11804621B3002
 - expected_values:
+    CHEVROLET_CURRENT_GEAR: 1
     CHEVROLET_GEAR: D1
   response: 142AF11804621B3004
 - expected_values:
+    CHEVROLET_CURRENT_GEAR: 4
     CHEVROLET_GEAR: D4
   response: 142AF11804621B3007
 - expected_values:
+    CHEVROLET_CURRENT_GEAR: 8
     CHEVROLET_GEAR: D8
   response: 142AF11804621B300B
+- expected_values:
+    CHEVROLET_CURRENT_GEAR: 10
+  response: 142AF11804621B300D

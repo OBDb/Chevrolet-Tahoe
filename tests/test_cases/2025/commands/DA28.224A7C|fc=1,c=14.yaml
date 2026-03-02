@@ -1,0 +1,5 @@
+command_id: DA28.224A7C|fc=1,c=14
+test_cases:
+- expected_values:
+    CHEVROLET_BP: 0
+  response: '14 2A F1 28 04 62 4A 7C 0A '
