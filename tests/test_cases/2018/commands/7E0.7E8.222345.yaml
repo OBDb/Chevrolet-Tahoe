@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222345
+test_cases:
+- expected_values:
+    CHEVROLET_EOP: 0
+  response: '7E80462234500'
+- expected_values:
+    CHEVROLET_EOP: 240
+  response: 7E8046223453C
+- expected_values:
+    CHEVROLET_EOP: 248
+  response: 7E8046223453E
+- expected_values:
+    CHEVROLET_EOP: 252
+  response: 7E8046223453F
+- expected_values:
+    CHEVROLET_EOP: 256
+  response: '7E80462234540'
+- expected_values:
+    CHEVROLET_EOP: 268
+  response: '7E80462234543'
+- expected_values:
+    CHEVROLET_EOP: 272
+  response: '7E80462234544'
+- expected_values:
+    CHEVROLET_EOP: 276
+  response: '7E80462234545'
