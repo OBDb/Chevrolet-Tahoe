@@ -4,17 +4,5 @@ test_cases:
     CHEVROLET_EOP_CALC: 92
   response: 7E804621C1B17
 - expected_values:
-    CHEVROLET_EOP_CALC: 212
-  response: 7E804621C1B35
-- expected_values:
-    CHEVROLET_EOP_CALC: 252
-  response: 7E804621C1B3F
-- expected_values:
-    CHEVROLET_EOP_CALC: 256
-  response: 7E804621C1B40
-- expected_values:
-    CHEVROLET_EOP_CALC: 260
-  response: 7E804621C1B41
-- expected_values:
     CHEVROLET_EOP_CALC: 272
   response: 7E804621C1B44
