@@ -1,0 +1,14 @@
+command_id: DA11.220010|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_MAF_DA11: 5.2
+  response: 142AF111056200100208
+- expected_values:
+    TAHOE_MAF_DA11: 10.07
+  response: 142AF1110562001003EF
+- expected_values:
+    TAHOE_MAF_DA11: 20.52
+  response: 142AF111056200100804
+- expected_values:
+    TAHOE_MAF_DA11: 54.57
+  response: 142AF111056200101551

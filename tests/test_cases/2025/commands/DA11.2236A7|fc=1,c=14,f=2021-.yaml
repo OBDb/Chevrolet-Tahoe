@@ -1,0 +1,5 @@
+command_id: DA11.2236A7|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_AIRFILT_LIFE_DA11: 80
+  response: 142AF111056236A75010

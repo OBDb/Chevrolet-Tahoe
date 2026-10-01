@@ -1,0 +1,8 @@
+command_id: DA18.221940|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_TFT: 42
+  response: 142AF1180462194052
+- expected_values:
+    TAHOE_TFT: 69
+  response: 142AF118046219406D
