@@ -1,0 +1,14 @@
+command_id: DA28.224A7A|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_FL_WHEEL_VSS: 0
+    TAHOE_FR_WHEEL_VSS: 0
+    TAHOE_RL_WHEEL_VSS: 0
+    TAHOE_RR_WHEEL_VSS: 0
+  response: 142AF12807624A7A00000000
+- expected_values:
+    TAHOE_FL_WHEEL_VSS: 76
+    TAHOE_FR_WHEEL_VSS: 76
+    TAHOE_RL_WHEEL_VSS: 76
+    TAHOE_RR_WHEEL_VSS: 76
+  response: 142AF12807624A7A4C4C4C4C

@@ -1,0 +1,11 @@
+command_id: DA11.22005E|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_FUEL_RATE_DA11: 1.95
+  response: 142AF1110562005E0027
+- expected_values:
+    TAHOE_FUEL_RATE_DA11: 10.85
+  response: 142AF1110562005E00D9
+- expected_values:
+    TAHOE_FUEL_RATE_DA11: 15.85
+  response: 142AF1110562005E013D

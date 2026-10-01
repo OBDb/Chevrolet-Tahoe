@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.221940|f=-2020
+test_cases:
+- expected_values:
+    TAHOE_ATF_T: 37
+  response: 7EA046219404D
+- expected_values:
+    TAHOE_ATF_T: 69
+  response: 7EA046219406D

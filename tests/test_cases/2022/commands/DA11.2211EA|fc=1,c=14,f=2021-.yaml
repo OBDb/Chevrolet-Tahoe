@@ -1,0 +1,8 @@
+command_id: DA11.2211EA|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_MISFIRES_C5_CUR_DA11: 0
+  response: 142AF111046211EA00
+- expected_values:
+    TAHOE_MISFIRES_C5_CUR_DA11: 0.39216
+  response: 142AF111046211EA01

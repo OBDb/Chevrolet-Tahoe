@@ -1,0 +1,8 @@
+command_id: DA11.22153E|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_EOT_DA11_2: 39
+  response: 142AF1110462153E4F
+- expected_values:
+    TAHOE_EOT_DA11_2: 100
+  response: 142AF1110462153E8C

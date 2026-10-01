@@ -1,0 +1,8 @@
+command_id: DA11.222345|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_EOP_ACT: 0
+  response: 142AF1110462234500
+- expected_values:
+    TAHOE_EOP_ACT: 420
+  response: 142AF1110462234569

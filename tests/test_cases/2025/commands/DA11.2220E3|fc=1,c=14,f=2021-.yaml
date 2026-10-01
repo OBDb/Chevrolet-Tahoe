@@ -1,0 +1,5 @@
+command_id: DA11.2220E3|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_BP_ACT_DA11: 0
+  response: 142AF111056220E30000
