@@ -1,0 +1,5 @@
+command_id: DA11.224DC0|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_EO_LIFE_REMAINING_DA11: 10.58824
+  response: 142AF11104624DC01B

@@ -1,0 +1,17 @@
+command_id: DA18.221B30|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_CURRENT_GEAR_DA18: -1
+  response: 142AF11804621B3002
+- expected_values:
+    TAHOE_CURRENT_GEAR_DA18: 1
+  response: 142AF11804621B3004
+- expected_values:
+    TAHOE_CURRENT_GEAR_DA18: 4
+  response: 142AF11804621B3007
+- expected_values:
+    TAHOE_CURRENT_GEAR_DA18: 8
+  response: 142AF11804621B300B
+- expected_values:
+    TAHOE_CURRENT_GEAR_DA18: 10
+  response: 142AF11804621B300D
