@@ -479,6 +479,10 @@
   "signals": [
     {"id": "TAHOE_EOT_DA11_2_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "0078"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_EGT_4", "path": "Engine", "fmt": {"bix": 56, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 4"}
+  ]},
 { "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "009D"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TAHOE_TOTAL_FUEL_CONSUMPTION_RATE_DA11", "path": "Fuel", "fmt": { "len": 16, "max": 1310.7, "mul": 200, "div": 10000, "unit": "gramsPerSecond" }, "name": "Total fuel consumption rate"}
@@ -515,9 +519,53 @@
   "signals": [
     {"id": "TAHOE_FUEL_INJ_CYL_6", "path": "Fuel", "fmt": { "len": 16, "max": 6.55, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 6"}
   ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20F3"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_ENGINE_RUN_TIME_SINCE_LAST_REGEN_MIN", "path": "Engine", "fmt": { "len": 16, "max": 8738, "mul": 8, "div": 60, "unit": "minutes" }, "name": "Diesel particulate filter, engine run time since last regeneration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20F7"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_AVG_DIST_BETWEEN_REGENS", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Diesel particulate filter, average distance between regeneration events"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "20F8"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_AVG_FLT_INLET_T_DURING_REGEN", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Diesel particulate filter, average filter inlet temperature during regeneration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "20F9"}, "freq": 1, "filter": { "from": 2021 },
+  "signals": [
+    {"id": "TAHOE_DPF_AVG_REGEN_DURATION", "path": "Engine", "fmt": { "len": 16, "max": 2040, "mul": 2040, "div": 65535, "unit": "seconds" }, "name": "Diesel particulate filter, average regeneration duration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "3035"}, "freq": 1, "filter": { "from": 2021 },
+  "signals": [
+    {"id": "TAHOE_DPF_PRES_SNS", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Diesel particulate filter, pressure sensor"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "3039"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_DIST_SINCE_LAST_REGEN", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Diesel particulate filter, distance since last regeneration"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "303A"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_EGT_1", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 1"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "303B"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_EGT_2", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Diesel particulate filter, exhaust gas temperature 2"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "304B"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_NUMBER_OF_COMPLETED_REGENS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Diesel particulate filter, number of completed regeneration events"}
+  ]},
 { "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "328A"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "TAHOE_BP_DES_DA11", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure: desired"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "34D8"}, "freq": 1, "filter": { "from": 2021 },
+  "signals": [
+    {"id": "TAHOE_DPF_PRES", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "unit": "kilopascal" }, "name": "Diesel particulate filter, pressure"}
+  ]},
+{ "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "cmd": {"22": "34D9"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "TAHOE_DPF_CORRECTED_PRES", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "mul": 100, "div": 10000, "sign": true, "nullmax": 327.67, "unit": "kilopascal" }, "name": "Diesel particulate filter, corrected pressure"}
   ]},
 { "hdr": "DA11", "rax": "2AF111", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "37A7"}, "freq": 1, "filter": { "from": 2021 },
   "signals": [
@@ -552,7 +600,7 @@
   ]},
 { "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4A7C"}, "freq": 0.25, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "TAHOE_BP", "path": "Engine", "fmt": { "len": 8, "max": 12700, "min": -12800, "mul": 100, "sign": true, "unit": "kilopascal" }, "name": "Brake pressure, raw scale"}
+    {"id": "TAHOE_BP", "path": "Engine", "fmt": { "len": 8, "max": 11700, "min": -13800, "mul": 100, "add": -1000, "sign": true, "unit": "kilopascal" }, "name": "Brake pressure"}
   ]},
 { "hdr": "DA28", "pri": "14", "fcm1": true, "cmd": {"22": "4C2D"}, "freq": 0.1, "filter": { "from": 2021 }, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
   "signals": [

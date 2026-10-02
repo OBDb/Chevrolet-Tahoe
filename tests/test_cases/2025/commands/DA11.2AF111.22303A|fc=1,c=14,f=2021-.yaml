@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.22303A|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_DPF_EGT_1: null
+  response: 142AF1110562303A0000
