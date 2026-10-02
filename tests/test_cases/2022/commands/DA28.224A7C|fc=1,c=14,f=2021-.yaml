@@ -1,17 +1,17 @@
 command_id: DA28.224A7C|fc=1,c=14,f=2021-
 test_cases:
 - expected_values:
-    TAHOE_BP: 1000
+    TAHOE_BP: 0
   response: 142AF12804624A7C0A
 - expected_values:
-    TAHOE_BP: 2000
+    TAHOE_BP: 1000
   response: 142AF12804624A7C14
 - expected_values:
-    TAHOE_BP: 2300
+    TAHOE_BP: 1300
   response: 142AF12804624A7C17
 - expected_values:
-    TAHOE_BP: 2600
+    TAHOE_BP: 1600
   response: 142AF12804624A7C1A
 - expected_values:
-    TAHOE_BP: 2800
+    TAHOE_BP: 1800
   response: 142AF12804624A7C1C
