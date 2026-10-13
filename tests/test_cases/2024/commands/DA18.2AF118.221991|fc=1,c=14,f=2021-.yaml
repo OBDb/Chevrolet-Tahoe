@@ -1,0 +1,5 @@
+command_id: DA18.2AF118.221991|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_TC_SLIP_VSS_DA18: 61.25
+  response: 142AF1180562199101EA
