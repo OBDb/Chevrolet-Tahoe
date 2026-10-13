@@ -1,0 +1,5 @@
+command_id: DA11.2AF111.22009D|fc=1,c=14,f=2021-
+test_cases:
+- expected_values:
+    TAHOE_TOTAL_FUEL_CONSUMPTION_RATE_DA11: 0.4
+  response: 142AF1110762009D00140014
