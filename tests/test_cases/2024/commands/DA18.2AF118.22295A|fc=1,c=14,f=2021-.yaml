@@ -3,3 +3,30 @@ test_cases:
 - expected_values:
     TAHOE_TF_T_FLTED_DA18: 30
   response: 142AF1180462295A46
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 38
+  response: 142AF1180462295A4E
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 39
+  response: 142AF1180462295A4F
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 41
+  response: 142AF1180462295A51
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 42
+  response: 142AF1180462295A52
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 43
+  response: 142AF1180462295A53
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 45
+  response: 142AF1180462295A55
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 48
+  response: 142AF1180462295A58
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 49
+  response: 142AF1180462295A59
+- expected_values:
+    TAHOE_TF_T_FLTED_DA18: 57
+  response: 142AF1180462295A61

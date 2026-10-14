@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TAHOE_MISFIRES_C7_CUR: 0
   response: 142AF111046211EC00
+- expected_values:
+    TAHOE_MISFIRES_C7_CUR: 0.78431
+  response: 142AF111046211EC02
