@@ -4,5 +4,5 @@ test_cases:
     TAHOE_EOT_DA11_2_2: 20
   response: 142AF1110462005C3C
 - expected_values:
-    TAHOE_EOT_DA11_2_2: 98
-  response: 142AF1110462005C8A
+    TAHOE_EOT_DA11_2_2: 100
+  response: 142AF1110462005C8C
