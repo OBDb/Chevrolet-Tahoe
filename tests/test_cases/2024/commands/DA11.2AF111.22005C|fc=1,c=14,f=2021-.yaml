@@ -1,8 +1,8 @@
 command_id: DA11.2AF111.22005C|fc=1,c=14,f=2021-
 test_cases:
 - expected_values:
-    TAHOE_EOT_DA11_2_2: 20
-  response: 142AF1110462005C3C
+    TAHOE_EOT_DA11_2_2: 17
+  response: 142AF1110462005C39
 - expected_values:
     TAHOE_EOT_DA11_2_2: 100
   response: 142AF1110462005C8C
