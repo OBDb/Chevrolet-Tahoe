@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.221991|fc=1,f=-2020
+test_cases:
+- expected_values:
+    TAHOE_TC_SLIP_VSS: 21.625
+  response: 7EA0562199100AD
+- expected_values:
+    TAHOE_TC_SLIP_VSS: 30.375
+  response: 7EA0562199100F3

@@ -1,0 +1,5 @@
+command_id: 7E2.7EA.22280D|f=-2020
+test_cases:
+- expected_values:
+    TAHOE_ATF_T_VAR_6: 62
+  response: 7EA0462280D66

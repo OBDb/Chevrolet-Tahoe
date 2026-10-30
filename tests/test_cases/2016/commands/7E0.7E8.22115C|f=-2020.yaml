@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22115C|f=-2020
+test_cases:
+- expected_values:
+    TAHOE_EOP_2: 30
+  response: 7E80462115C56
+- expected_values:
+    TAHOE_EOP_2: 30.6
+  response: 7E80462115C57
+- expected_values:
+    TAHOE_EOP_2: 31.2
+  response: 7E80462115C58

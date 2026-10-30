@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2212C4|f=-2020
+test_cases:
+- expected_values:
+    TAHOE_INJECTOR_DUTY_CYCLE_BANK_2: 1.125
+  response: 7E8056212C4004B
+- expected_values:
+    TAHOE_INJECTOR_DUTY_CYCLE_BANK_2: 1.245
+  response: 7E8056212C40053
+- expected_values:
+    TAHOE_INJECTOR_DUTY_CYCLE_BANK_2: 1.305
+  response: 7E8056212C40057
+- expected_values:
+    TAHOE_INJECTOR_DUTY_CYCLE_BANK_2: 1.35
+  response: 7E8056212C4005A
+- expected_values:
+    TAHOE_INJECTOR_DUTY_CYCLE_BANK_2: 1.515
+  response: 7E8056212C40065

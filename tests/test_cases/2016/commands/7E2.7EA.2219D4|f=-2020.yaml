@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.2219D4|f=-2020
+test_cases:
+- expected_values:
+    TAHOE_CLU_SLIP_C3_RING: 1045.25
+  response: 7EA056219D41055
+- expected_values:
+    TAHOE_CLU_SLIP_C3_RING: 1049.5
+  response: 7EA056219D41066
