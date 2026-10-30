@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.221941|f=-2020
+test_cases:
+- expected_values:
+    TAHOE_TRANS_ISS: 1040.25
+  response: 7EA056219411041
+- expected_values:
+    TAHOE_TRANS_ISS: 1062.75
+  response: 7EA05621941109B
